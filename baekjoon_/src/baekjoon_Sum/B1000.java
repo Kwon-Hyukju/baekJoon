@@ -1,16 +1,21 @@
-package baekjoon_;
+package baekjoon_Sum;
 
 import java.util.Scanner;
 
-public class B18108 {
+public class B1000 {
 
 	public static void main(String[] args) {
+		
+		
 		Scanner sc = new Scanner(System.in);
 		
 		int a = sc.nextInt();
-		int result = a - 543;
+		int b = sc.nextInt();
+		int x = a+b;
 		
-		System.out.println(result);
+		System.out.println(x);
+		
+		
 		
 	}
 
